@@ -55,8 +55,15 @@ problems and developing a process for writing your own algorithms.
 When you're given any problem to solve with code, two mistakes many programmers
 make are to jump into code too fast or to start thinking about code optimization
 too early. Both of these mistakes can greatly increase the amount of time it
-takes to solve a problem and increase frustration. To avoid this, here are the
-steps we recommend taking:
+takes to solve a problem and increase frustration.
+
+In general, any time you write code, your priorities are to:
+
+- Make it work
+- Make it right (i.e., readable)
+- Make it fast
+
+Here are the steps we recommend taking:
 
 ### 1. Rewrite the Problem in Your Own Words
 
@@ -145,6 +152,33 @@ Once your solution is well, a solution, it's time to refactor your code so that
 it's easy to read, not just for you but also for others. Use well-named
 variables and convert blocks of code to functions when necessary. If you find
 any unneeded or redundant code, delete it.
+
+Here are some things to look for when writing clean code:
+
+- Is it easy to read?
+  - Make sure you use indentation correctly!
+  - Use meaningful variable names. `s` is less meaningful than `substring`.
+  - Add comments when your code needs an explanation. Don't add comments to
+    every line; but if your code is doing something out of the ordinary, or if
+    you wouldn't understand the code yourself after looking at it in the future;
+    it's good to add a comment to explain your intent.
+  - Don't try and cram everything into one line of code, just because you can
+    (unless you're doing [code golf][]).
+- Does it follow the [Single Responsibility Principle][single responsibility]?
+  - Keep functions focused on one specific task.
+  - Create helper functions when needed.
+- Does it have unnecessary lines?
+  - Review your code for redundant/unnecessary lines. Are there more elegant
+    ways of expressing your code?
+  - Avoid unnecessary comments. Prefer well-named variables and helper functions
+    rather than adding a comment to every line. Good code is its own best
+    documentation!
+- Is it DRY?
+  - Avoid repeating yourself. Write helper functions to abstract away repetitive
+    logic.
+
+[code golf]: https://en.wikipedia.org/wiki/Code_golf
+[single responsibility]: https://en.wikipedia.org/wiki/Single-responsibility_principle
 
 Don't forget to test your code again!
 
