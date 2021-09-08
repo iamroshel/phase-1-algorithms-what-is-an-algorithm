@@ -9,7 +9,7 @@
 
 One of the main focuses of this section is writing **algorithms** to solve
 problems. While the word **algorithm** may sound intimidating, its definition
-actually quite straightforward:
+is actually quite straightforward:
 
 > An **algorithm** is simply a well-defined procedure, or set of instructions,
 > for accomplishing a specific task.
@@ -42,7 +42,7 @@ want complete the following steps:
    look a little under baked in the middle.
 ```
 
-Any set of instructions or a defined procedure on how to complete a task could
+Any set of instructions or procedure describing how to complete a task could
 also be categorized as an algorithm. If you're wondering if that's any different
 from the work you've already been doing when working on labs, we've got good
 news: It's not! You've already had plenty of practice writing your own
@@ -52,10 +52,10 @@ problems and developing a process for writing your own algorithms.
 
 ## How to Solve Problems
 
-When you're given any problem to solve with code, two mistakes many programmers
-make are to jump into code too fast or to start thinking about code optimization
-too early. Both of these mistakes can greatly increase the amount of time it
-takes to solve a problem and increase frustration.
+When given any problem to solve with code, two mistakes many programmers make
+are to jump into code too fast or to start thinking about code optimization too
+early. Both of these mistakes can greatly increase the amount of time it takes
+to solve a problem and increase frustration.
 
 In general, any time you write code, your priorities are to:
 
@@ -86,8 +86,8 @@ Now that you understand the problem and why the answers to the test cases are
 what they are, you're ready to write your own test cases! Writing your own test
 cases doesn't mean that you need to write entire test suites in Rspec or Jest.
 The important thing is to identify what inputs your code should handle and what
-outputs it should return, and then to find a quick way to check if your work
-once you've written the solution.
+outputs it should return, and then to find a quick way to check your work once
+you've written the solution.
 
 One way to do this is to simply print the result of calling your solution method
 and compare it to the answer you expected. For example, if you were writing an
@@ -132,10 +132,10 @@ easy to understand yourself and explain to others — this is the map to the cod
 you're about to write! It's helpful to copy your pseudocode into your workspace
 as comments, and then code each piece alongside the matching comment.
 
-You can also test this procedure against the test cases before writing any code.
-Validating and rewriting pseudocode will likely save you time. You might also
-wish to think about additional solutions: there's always more than one way to
-solve a problem.
+You can also test your pseudocoded procedure against the test cases before
+writing any code. Validating and rewriting pseudocode will likely save you time.
+You might also wish to think about additional solutions: there's always more
+than one way to solve a problem.
 
 ### 4. Code
 
@@ -159,8 +159,8 @@ Here are some things to look for when writing clean code:
   - Make sure you use indentation correctly!
   - Use meaningful variable names. `s` is less meaningful than `substring`.
   - Add comments when your code needs an explanation. Don't add comments to
-    every line; but if your code is doing something out of the ordinary, or if
-    you wouldn't understand the code yourself after looking at it in the future;
+    every line. But if your code is doing something out of the ordinary, or if
+    you wouldn't understand the code yourself after looking at it in the future,
     it's good to add a comment to explain your intent.
   - Don't try and cram everything into one line of code, just because you can
     (unless you're doing [code golf][]).
@@ -170,7 +170,7 @@ Here are some things to look for when writing clean code:
 - Does it have unnecessary lines?
   - Review your code for redundant/unnecessary lines. Are there more elegant
     ways of expressing your code?
-  - Avoid unnecessary comments. Prefer well-named variables and helper functions
+  - Avoid unnecessary comments. Use well-named variables and helper functions
     rather than adding a comment to every line. Good code is its own best
     documentation!
 - Is it DRY?
